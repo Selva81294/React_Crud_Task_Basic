@@ -27,8 +27,8 @@ const loginStudents = ()=>{
                 <h1 style={{marginBottom:"30px"}}> 🙂 WELCOME TO STUDENTS APP 🙂</h1>
                 <Form className="loginForm">
                 <div className="loginData">
-                <h5>username : selva</h5>
-                <h5>password : 1234</h5>
+                <h5>Username : selva</h5>
+                <h5>Password : 1234</h5>
                 </div>
                 <Form.Label>
                     <Form.Label className='loginLabel'>USERNAME</Form.Label><h1>⬇</h1>
