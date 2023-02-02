@@ -1,0 +1,127 @@
+.App {
+   margin: 0;
+   padding: 0;
+}
+
+.navSty{
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.baseBtn{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+.baseBtn:hover{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+.logoutBtn{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  font-weight: bolder;
+}
+.logoutBtn:hover{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+hr{
+  color: whitesmoke;
+}
+
+.card-div{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 5px;
+  gap: 1rem;
+}
+.body-div{
+  background-color: #005960;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-height: 100vh;
+}
+
+.studBtn{
+  box-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+}
+.editBtn{
+  margin-right: 20px;
+}
+.deleteBtn{
+  margin-right: 20px;
+}
+.textArea{
+  width: 400px;
+  align-items: center;
+}
+
+.addData{
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+.formLabel{
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.formSty{
+  width: 380px;
+  background-color: #005960;
+  color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  border-width: 1px;
+  box-shadow: 5px 5px 5px black;
+  border-color: whitesmoke;
+}
+
+.funtionBtn{
+  box-shadow: 5px 5px 5px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width:100px;
+  font-weight: bolder;
+}
+.viewCard{
+ display: grid;
+ justify-items: center;
+ text-align: center;
+ margin-top: 100px;
+}
+.loginForm{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+.loginBtn{
+  box-shadow: 5px 5px 5px black;
+  width:100px;
+  font-weight: bolder;
+}
+.loginLabel{
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.loginData{
+  border: 2px solid whitesmoke;
+  padding: 10px;
+}
+.loginStyle{
+  background-color: #005960;
+  color: whitesmoke;
+  padding-top: 50px;
+  min-height: 100vh;
+  text-align: center;
+}
