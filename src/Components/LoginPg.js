@@ -34,7 +34,7 @@ const loginStudents = ()=>{
                     <Form.Label className='loginLabel'>USERNAME</Form.Label><h1>⬇</h1>
                     <Form.Control
                         className='formSty'
-                        placeholder="UserName"
+                        placeholder="Username"
                         type="text" onChange={(e)=>setLoginName(e.target.value)} value = {loginName}
                     />
                     <Form.Label className='loginLabel'>PASSWORD</Form.Label><h1>⬇</h1>
